@@ -103,13 +103,6 @@ public class MazeMaker {
 				c2.setEastWall(false);
 			}
 		}
-		
-		try {
-			Thread.sleep(500);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 
 	private static ArrayList<Cell> getUnvisitedNeighbors(Cell c) {
